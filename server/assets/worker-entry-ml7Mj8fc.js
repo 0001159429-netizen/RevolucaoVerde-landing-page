@@ -16672,7 +16672,7 @@ function getResponse() {
 }
 var HEADERS = { TSS_SHELL: "X-TSS_SHELL" };
 async function getStartManifest(matchedRoutes) {
-  const { tsrStartManifest } = await import("./_tanstack-start-manifest_v-C3r1AJe9.js");
+  const { tsrStartManifest } = await import("./_tanstack-start-manifest_v-CrW8XT5P.js");
   const startManifest = tsrStartManifest();
   const rootRoute = startManifest.routes[rootRouteId] = startManifest.routes[rootRouteId] || {};
   rootRoute.assets = rootRoute.assets || [];
@@ -17274,7 +17274,7 @@ var baseManifestPromise;
 var cachedFinalManifestPromise;
 async function loadEntries() {
   const [routerEntry, startEntry, pluginAdapters] = await Promise.all([
-    import("./router-Drm7lDfk.js"),
+    import("./router-DkGXgez6.js"),
     import("./start-HYkvq4Ni.js"),
     import("./__23tanstack-start-plugin-adapters-Cwee5PKy.js")
   ]);
@@ -17303,8 +17303,8 @@ async function resolveManifest(matchedRoutes, transformFn, cache) {
   }
   return computeFinalManifest();
 }
-var ROUTER_BASEPATH = "RevolucaoVerde-landing-page";
-var SERVER_FN_BASE = "/RevolucaoVerde-landing-page/_serverFn/";
+var ROUTER_BASEPATH = "Revolucao-Verde-landing-page";
+var SERVER_FN_BASE = "/Revolucao-Verde-landing-page/_serverFn/";
 var IS_PRERENDERING = process.env.TSS_PRERENDERING === "true";
 var IS_SHELL_ENV = process.env.TSS_SHELL === "true";
 var ERR_NO_RESPONSE = "Internal Server Error";

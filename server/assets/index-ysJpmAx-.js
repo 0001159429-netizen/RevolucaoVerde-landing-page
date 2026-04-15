@@ -1,4 +1,4 @@
-import { r as reactExports, T as jsxRuntimeExports } from "./worker-entry-B37J1bus.js";
+import { r as reactExports, T as jsxRuntimeExports } from "./worker-entry-ml7Mj8fc.js";
 import "node:events";
 import "node:async_hooks";
 import "node:stream/web";
@@ -8014,7 +8014,7 @@ const featureBundle = {
   ...layout
 };
 const motion = /* @__PURE__ */ createMotionProxy(featureBundle, createDomVisualElement);
-const heroImg = "/RevolucaoVerde-landing-page/assets/hero-industrial-rG0gpAZO.jpg";
+const heroImg = "/Revolucao-Verde-landing-page/assets/hero-industrial-rG0gpAZO.jpg";
 function HeroSection() {
   return /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { id: "hero", className: "relative min-h-screen overflow-hidden gradient-hero", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "absolute inset-0", children: [
@@ -8093,7 +8093,7 @@ function AnimatedSection({ children, className = "", delay: delay2 = 0 }) {
     }
   );
 }
-const teamImg = "/RevolucaoVerde-landing-page/assets/team-photo-BpJYhoY0.jpg";
+const teamImg = "/Revolucao-Verde-landing-page/assets/team-photo-BpJYhoY0.jpg";
 const team = [
   { name: "Ana", role: "Desenvolvedora" },
   { name: "João", role: "Inteligência Artificial" },
